@@ -1,7 +1,3 @@
-# Python Photo Organizer
-
-The most simple photo organizer ever! :p
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -48,12 +44,22 @@ Call script inside a folder with photos:
 ./photo-organizer.py .
 ```
 
+Call script inside a folder with archives:
+```
+./junkfiles.py .
+```
+
 ### Windows
 
 To run a test, call the script inside a folder with photos.
 
 ```
 python photo-organizer.py .
+```
+
+Call script inside a folder with archives:
+```
+python ./junkfiles.py .
 ```
 
 **For Windows in Context Menu:**
@@ -67,22 +73,3 @@ pyinstaller -w -F photo-organizer.py
 2. Add the keys on Registry or run *photo-organizer.reg*.
 3. Copy .exe file on *C:\Program Files\Photo Organizer*
 4. Add *C:\Program Files\Photo Organizer* in the *Path* on Windows Environment Variable.
-
-## Contributing
-
-Feel free to submitting pull requests to us.
-
-## Authors
-
-* **Gabriel Froes** - *Initial work* - [Twitter](https://www.twitter.com/gabrielfroes)
-* **Vanessa Weber** - *Initial work* - [Twitter](https://www.twitter.com/nessaweberfroes)
-
-## License
-
-This project is licensed under the [GNU General Public License](https://opensource.org/licenses/GPL-3.0).
-
-## Acknowledgments
-
-* First steps in Python language
-* Create simple and useful things
-* Build code for [Código Fonte TV](https://www.youtube.com/codigofontetv), our Youtube Channel.
